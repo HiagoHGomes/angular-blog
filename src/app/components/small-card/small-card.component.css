@@ -1,5 +1,5 @@
 .container__small-card {
-    width: 700px;
+    width: 100%;
     margin-bottom: 15px;
 }
 
@@ -9,7 +9,7 @@
 
 .small-card__photo > img {
     width: 200px;
-    min-width: 200px;
+    /* min-width: 200px; */
     margin-right: 20px;
 }
 
@@ -25,4 +25,12 @@
 
 hr {
     color: #00ff73;
+}
+
+@media (max-width: 558px) {
+    .container__small-card {
+       width: 80%;
+       margin-left: 50px;
+       font-size: 10px;
+    }
 }

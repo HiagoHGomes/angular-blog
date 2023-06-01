@@ -14,3 +14,16 @@
     margin: 20px 0 5px;
     color: #00ff73;
 }
+
+
+@media (max-width: 1120px) {
+    .container__menu-title > h1 {
+        font-size: 6.438rem;
+    }
+}
+
+@media (max-width: 667px) {
+    .container__menu-title > h1 {
+        font-size: 3.438rem;
+    }
+}
